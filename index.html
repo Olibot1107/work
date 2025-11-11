@@ -400,7 +400,7 @@
                 const fileExt = hw.file.split('.').pop().toUpperCase();
 
                 card.innerHTML = `
-                    <h3>Homework #${hw.id}</h3>
+                    <h3>Work #${hw.id}</h3>
                     <p><strong>${hw.title}</strong></p>
                     <p><small>${hw.date}</small></p>
                     <span class="subject-tag">${hw.subject}</span>
@@ -426,7 +426,7 @@
 
             if (!hw) {
                 hideLoader();
-                alert('Homework #' + id + ' not found!');
+                alert('Work #' + id + ' not found!');
                 return;
             }
 
